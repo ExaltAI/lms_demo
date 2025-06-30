@@ -1,4 +1,4 @@
-"""Repository protocols for the domain layer."""
+"""Repository protocols for the LMS domain layer."""
 
 from typing import Protocol, Optional, List
 
