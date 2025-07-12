@@ -2,7 +2,7 @@
 
 This repository is for educational purposes only. Commercial use is prohibited.
 
-See LICENSE file for details.
+See [LICENSE](LICENSE) file for details.
 
 ---
 
