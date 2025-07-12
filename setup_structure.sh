@@ -5,7 +5,7 @@
 echo "Setting up LMS project structure..."
 
 # Base directory
-BASE_DIR="src/lms_demo"
+BASE_DIR="src/lms"
 
 # Create main directories
 mkdir -p "$BASE_DIR"
@@ -68,4 +68,4 @@ echo "Project structure created successfully!"
 
 # Display the created structure
 echo -e "\nCreated structure:"
-tree "$BASE_DIR" -a --charset=ascii 2>/dev/null || find "$BASE_DIR" -type d | sort | sed 's/[^/]*\//|  /g; s/|  \([^|]\)/+--\1/'
+tree "$BASE_DIR"

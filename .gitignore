@@ -9,10 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
-# Pycharm IDE files
+docs
+
+.DS_Store
 .idea
-
-# ENV files
-.env
-
-

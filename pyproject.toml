@@ -1,17 +1,33 @@
 [project]
-name = "lms-demo"
+name = "lms"
 version = "0.1.0"
-description = "Example Learning Management System (LMS) implemented using Domain Driven Development approach"
+description = "Learning Management System with Domain-Driven Design"
 readme = "README.md"
 authors = [
     { name = "exaltai", email = "hnagra@exaltai.co.uk" }
 ]
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.10.3",
+    "fastapi>=0.115.5",
+    "uvicorn[standard]>=0.34.0",
+    "sqlalchemy>=2.0.41",
+    "python-multipart>=0.0.20",
+    "email-validator>=2.0.0",
+]
 
 [project.scripts]
-lms-demo = "lms_demo:main"
+lms = "lms:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+    "requests>=2.32.4",
+    "ruff>=0.12.3",
+]
+
+
