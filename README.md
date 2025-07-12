@@ -1,6 +1,10 @@
 # LMS - Learning Management System
 
-FOR EDUCATIONAL PURPOSES ONLY
+This repository is for educational purposes only. Commercial use is prohibited.
+
+See LICENSE file for details.
+
+---
 
 A Domain-Driven Design (DDD) implementation of a Learning Management System using Python, FastAPI, SQLAlchemy, and Pydantic.
 
